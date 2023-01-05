@@ -35,3 +35,10 @@ pull requests targeting these branches will be automatically updated.
 token can only perform 5000 requests per hour
 2. The action currently does not implement paging, so it can only update up to
 100 pull requests in one run
+
+
+## Building this action
+The runnable in this project is under the bin/ directory. You'll need to build the .ts file and check in both files in order to reflect any changes.
+- nvm use 16
+- npm install -g typescript
+- tsc
